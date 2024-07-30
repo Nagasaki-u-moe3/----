@@ -1,0 +1,501 @@
+<mxfile host="Electron" modified="2024-07-29T19:47:15.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="xpP5POCPNWafGmng9Z1g" version="24.4.8" type="device" pages="3">
+  <diagram name="登録した食材を編集する" id="b7jMapCqCx080nC23Gcc">
+    <mxGraphModel dx="1765" dy="1464" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-1" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" target="R4mE8ZpJSQ6OTubaiiXm-39" source="R4mE8ZpJSQ6OTubaiiXm-27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="847.5" y="478" as="sourcePoint" />
+            <mxPoint x="1427.5" y="478" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-281" y="-76" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-271" y="52" width="10" height="383" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="R4mE8ZpJSQ6OTubaiiXm-5" target="R4mE8ZpJSQ6OTubaiiXm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-5" value="«boundary»&lt;br&gt;&lt;b&gt;: MainPage&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-42.5" y="-66" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="7.5" y="57" width="10" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-7" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" target="R4mE8ZpJSQ6OTubaiiXm-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-258" y="78" as="sourcePoint" />
+            <mxPoint x="-12" y="78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-8" value="instruct_food_edit(Food = 卵)" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-231" y="47" width="216" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-9" value="«boundary»&lt;br&gt;&lt;b&gt;: FoodEditPage&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="241" y="-66" width="126" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" target="R4mE8ZpJSQ6OTubaiiXm-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="303.16999999999996" y="-16" as="sourcePoint" />
+            <mxPoint x="303.16999999999996" y="97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="299" y="101" width="10" height="342" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" target="R4mE8ZpJSQ6OTubaiiXm-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1239.67" y="-31" as="sourcePoint" />
+            <mxPoint x="1239.67" y="254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1235.5" y="285" width="10" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-14" value="«entity»&lt;br&gt;&lt;b&gt;: Food&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-66" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="R4mE8ZpJSQ6OTubaiiXm-14" target="R4mE8ZpJSQ6OTubaiiXm-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1733" y="751" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-16" value="show_food(&quot;卵&quot;)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="41" y="99" width="234" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-17" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" target="R4mE8ZpJSQ6OTubaiiXm-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="17.499999999999773" y="119" as="sourcePoint" />
+            <mxPoint x="560.5" y="119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-18" value="«control»&lt;br&gt;&lt;b&gt;: EditFoodControl&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="762" y="-66" width="161" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" target="R4mE8ZpJSQ6OTubaiiXm-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="841.59" y="-14" as="sourcePoint" />
+            <mxPoint x="841.59" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-20" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="309" y="206" as="sourcePoint" />
+            <mxPoint x="608.4999999999998" y="206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-21" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="847.5" y="478" as="sourcePoint" />
+            <mxPoint x="1235.5" y="478.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-22" value="check_food(&quot;卵&quot;, 2024/08/28, 2)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="339" y="186" width="240" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-23" value="«entity»&lt;br&gt;&lt;b&gt;: ExpirationDateList&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1153" y="-66" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="R4mE8ZpJSQ6OTubaiiXm-33" target="R4mE8ZpJSQ6OTubaiiXm-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900.5" y="752" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-25" value="«control»&lt;br&gt;&lt;b&gt;: CheckFoodControl&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="533" y="-66" width="161" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" target="R4mE8ZpJSQ6OTubaiiXm-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="612.6700000000001" y="-16" as="sourcePoint" />
+            <mxPoint x="612.6700000000001" y="153" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="837.5" y="361" width="10" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-28" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="309" y="422.39" as="sourcePoint" />
+            <mxPoint x="837.5000000000005" y="422.39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-29" value="edit&lt;span style=&quot;background-color: initial;&quot;&gt;_food(&quot;卵&quot;, 2024/08/28,2)&lt;/span&gt;" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="455" y="405" width="237" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-30" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-261" y="182" as="sourcePoint" />
+            <mxPoint x="299" y="182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-31" value="update_food(&quot;卵&quot;, 2024/08/28,2)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="160" width="267" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-32" value="check_name_length(&quot;卵&quot;): True" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="718" y="203" width="232" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-33" value="&lt;b&gt;: FoodDAO&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1381" y="-66" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1050" y="195" width="10" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-35" value="update_food(&quot;卵&quot;, 2024/08/28,2)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="1019" y="411" width="241" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-36" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="618.5" y="306" as="sourcePoint" />
+            <mxPoint x="1235.5" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-37" value="check_expiration(2024/08/28): True" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="790" y="286" width="275" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="608.5" y="184" width="10" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1431" y="373" width="10" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-40" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" target="R4mE8ZpJSQ6OTubaiiXm-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="618.5" y="223" as="sourcePoint" />
+            <mxPoint x="1030" y="223" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-41" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" target="R4mE8ZpJSQ6OTubaiiXm-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="620" y="261.66999999999996" as="sourcePoint" />
+            <mxPoint x="1354" y="261.66999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-42" value="check_stock_zero(2): True" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="735" y="240" width="198" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-43" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;登録した食材を編集する&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=201;height=48;" vertex="1" parent="1">
+          <mxGeometry x="-372" y="-138" width="1916" height="684" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-44" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" target="R4mE8ZpJSQ6OTubaiiXm-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-266.83" y="19" as="sourcePoint" />
+            <mxPoint x="-267" y="54" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-45" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-261" y="375.00000000000006" as="sourcePoint" />
+            <mxPoint x="299" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-46" value="confirm_food(&quot;卵&quot;, 2024/08/28,2)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="-112.12" y="352" width="261.25" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-47" value="update_food(&quot;卵&quot;, 2024/08/28,2)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="923" y="456" width="241" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-48" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="299" y="336.00000000000045" as="sourcePoint" />
+            <mxPoint x="-261" y="336.00000000000045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-49" value="showinfo(&quot;入力内容は正しいです&quot;)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="-112.12" y="317" width="261.25" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-54" value="askyesno(&quot;食材名:卵, 賞味期限:2024/08/28, 在庫数:2&quot;)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="-187.99" y="387" width="413" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="R4mE8ZpJSQ6OTubaiiXm-55" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-261" y="409.57000000000005" as="sourcePoint" />
+            <mxPoint x="299" y="409.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="62unhbJC8ps8dvCDFqpW" name="食材を消去する">
+    <mxGraphModel dx="2509" dy="2044" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" target="9cPsV7C6HCDmeK85nTTJ-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-237" y="26" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-252" y="-62" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-242" y="48" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="9cPsV7C6HCDmeK85nTTJ-5" target="9cPsV7C6HCDmeK85nTTJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-5" value="«boundary»&lt;br&gt;&lt;b&gt;: MainPage&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-11" y="-57" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="42" y="59" width="10" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-7" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" target="9cPsV7C6HCDmeK85nTTJ-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-232" y="98.78999999999996" as="sourcePoint" />
+            <mxPoint x="-52" y="99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-8" value="instruct_food_delete(玉ねぎ)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-207" y="68" width="224" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-9" value="«boundary»&lt;br&gt;&lt;b&gt;: DeleteConfirmPage&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="218" y="-57" width="134" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" target="9cPsV7C6HCDmeK85nTTJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="8" as="sourcePoint" />
+            <mxPoint x="285" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="280" y="92" width="10" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-12" value="show_food(&quot;玉ねぎ&quot;)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="74" y="92" width="185" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-13" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" target="9cPsV7C6HCDmeK85nTTJ-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="54" y="112" as="sourcePoint" />
+            <mxPoint x="248" y="112" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-14" value="«control»&lt;br&gt;&lt;b&gt;: CheckDeleteControl&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="578.5" y="-57" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="9cPsV7C6HCDmeK85nTTJ-14" target="9cPsV7C6HCDmeK85nTTJ-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="498.88" y="6" as="sourcePoint" />
+            <mxPoint x="498.88" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="646" y="109" width="10" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-17" value="«entity»&lt;br&gt;&lt;b&gt;: ExpirationDateList&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="940" y="-57" width="119" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9cPsV7C6HCDmeK85nTTJ-17" target="9cPsV7C6HCDmeK85nTTJ-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1125.5" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="994.5" y="227" width="10" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-20" value="&lt;b&gt;: FoodDAO&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1211.5" y="-57" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9cPsV7C6HCDmeK85nTTJ-20" target="9cPsV7C6HCDmeK85nTTJ-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1266.5" y="92" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1261.5" y="154" width="10" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-23" value="delete_food(&quot;玉ねぎ&quot;, 2024/06/28, 3)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="818" y="302" width="282" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-24" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" target="9cPsV7C6HCDmeK85nTTJ-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="656" y="324" as="sourcePoint" />
+            <mxPoint x="1199.5" y="324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-25" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="656" y="262" as="sourcePoint" />
+            <mxPoint x="994.5" y="262" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-26" value="delete_food(&quot;玉ねぎ&quot;)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="728" y="242" width="195" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-27" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-231.99999999999977" y="198" as="sourcePoint" />
+            <mxPoint x="280" y="198" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-28" value="delete(玉ねぎ)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-104" y="173" width="256" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-29" value="&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;登録した食材を消去する&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=201;height=48;" vertex="1" parent="1">
+          <mxGeometry x="-292" y="-138" width="1642" height="537" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-30" value="askyesno(&quot;玉ねぎを消去しますか?&quot;): True" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-132" y="206" width="312" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-31" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-231.99999999999977" y="228" as="sourcePoint" />
+            <mxPoint x="280" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-32" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" target="9cPsV7C6HCDmeK85nTTJ-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="246" as="sourcePoint" />
+            <mxPoint x="516" y="246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cPsV7C6HCDmeK85nTTJ-33" value="check_delete_food(DAO=dao, ExpirationList=expirationList, Food=玉ねぎ)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="307" y="205" width="321" height="34" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3eMB10fvtsZl4mqNh949" name="賞味期限管理リストから買い物リストに移動する">
+    <mxGraphModel dx="2185" dy="1791" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" target="bh9bQf6N9PDP3kx2w6bJ-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-201.45" y="28" as="sourcePoint" />
+            <mxPoint x="-201.45" y="77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-216" y="-59" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="bh9bQf6N9PDP3kx2w6bJ-4" target="bh9bQf6N9PDP3kx2w6bJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-4" value="«boundary»&lt;br&gt;&lt;b&gt;: MainPage&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1.5" y="-54" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="51.5" y="61" width="10" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-6" value="instruct_move_shoppinglist()" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="-186" y="65" width="233" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bh9bQf6N9PDP3kx2w6bJ-9" target="bh9bQf6N9PDP3kx2w6bJ-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1163" y="-4" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="868" y="208" width="10" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-9" value="«entity»&lt;br&gt;&lt;b&gt;: List&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="798.5" y="-51" width="149" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-10" value="«control»&lt;br&gt;&lt;b&gt;: ChangeListControl&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="561" y="-54" width="137" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-11" value="&lt;b&gt;: FoodDAO&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1048" y="-51" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;賞味期限管理リストから&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;買い物リストに移動する&lt;/span&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=211;height=59;" vertex="1" parent="1">
+          <mxGeometry x="-292" y="-151" width="1484" height="511" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-206" y="58" width="10" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-14" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" target="bh9bQf6N9PDP3kx2w6bJ-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-196" y="84" as="sourcePoint" />
+            <mxPoint x="-2" y="84" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-15" value="«boundary»&lt;br&gt;&lt;b&gt;: MovingConfirmPage&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="129" y="-54" width="178" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bh9bQf6N9PDP3kx2w6bJ-15" target="bh9bQf6N9PDP3kx2w6bJ-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="313.25" y="-9" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="213" y="98" width="10" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-18" value="move_food()" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="-97" y="124" width="185" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-19" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" target="bh9bQf6N9PDP3kx2w6bJ-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-196" y="142" as="sourcePoint" />
+            <mxPoint x="308.25" y="142" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-20" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" target="bh9bQf6N9PDP3kx2w6bJ-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-195.62" y="191.95" as="sourcePoint" />
+            <mxPoint x="308.63" y="191.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-21" value="askyesno(&quot;食材名: いちごを移動しますか?&quot;): True" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="-186" y="167" width="360" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-22" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bh9bQf6N9PDP3kx2w6bJ-10" target="bh9bQf6N9PDP3kx2w6bJ-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1165" y="-4.5" as="sourcePoint" />
+            <mxPoint x="1165.0000000000002" y="180.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-23" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="634.4999999999998" y="231" as="sourcePoint" />
+            <mxPoint x="867" y="231" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-24" value="change_list(dao: FoodDAO, expirationList: before,&amp;nbsp;&lt;div&gt;shoplist: after, いちご: Food, )&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="242" y="164" width="363.5" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="bh9bQf6N9PDP3kx2w6bJ-11" target="bh9bQf6N9PDP3kx2w6bJ-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1623" y="-4" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-26" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1098" y="286" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-27" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" target="bh9bQf6N9PDP3kx2w6bJ-28">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="223" y="213" as="sourcePoint" />
+            <mxPoint x="634" y="212.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="624.5" y="184" width="10" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-29" value="delete_food(&quot;いちご&quot;)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="660.62" y="206" width="181.75" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-30" value="add_food(&quot;いちご&quot;)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="660.62" y="248" width="181.75" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-31" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="635.4999999999998" y="272.47" as="sourcePoint" />
+            <mxPoint x="868" y="272.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-32" value="update_column(&quot;いちご&quot;)" style="text;strokeColor=none;fillColor=default;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="897" y="276" width="181.75" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="bh9bQf6N9PDP3kx2w6bJ-33" value="" style="endArrow=blockThin;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="877.9999999999998" y="303" as="sourcePoint" />
+            <mxPoint x="1097" y="303" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

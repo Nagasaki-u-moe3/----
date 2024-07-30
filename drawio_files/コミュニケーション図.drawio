@@ -1,0 +1,503 @@
+<mxfile host="Electron" modified="2024-07-29T23:51:49.387Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="0WGpZiswJz_9GeW_vh2A" version="24.4.8" type="device" pages="3">
+  <diagram name="登録した食材を編集する" id="LNayn0AsVbbdmCb9lpM6">
+    <mxGraphModel dx="1148" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="284" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-2" value="" style="endArrow=none;html=1;rounded=0;endFill=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KDHDvU10Hn9If9cM9WD8-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="319" as="sourcePoint" />
+            <mxPoint x="400" y="229" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="314" />
+              <mxPoint x="110" y="229" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="KDHDvU10Hn9If9cM9WD8-4" target="KDHDvU10Hn9If9cM9WD8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-4" value="：食材編集&lt;div&gt;画面&lt;/div&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="359" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-5" value="：メイン画面（賞味期限&lt;div&gt;管理&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="189" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="209.99869565217386" y="209" as="sourcePoint" />
+            <mxPoint x="310" y="209" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-7" value="１: 食材の編集を指示する（食材）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="179" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="KDHDvU10Hn9If9cM9WD8-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="289" as="sourcePoint" />
+            <mxPoint x="490" y="339" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-10" value="２: 表示する（食材）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="299" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="419" as="sourcePoint" />
+            <mxPoint x="310" y="419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-12" value="３: 入力内容を編集する（食材名, 日付, 在庫数）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="419" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="299" as="sourcePoint" />
+            <mxPoint x="400" y="399" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KDHDvU10Hn9If9cM9WD8-17" target="KDHDvU10Hn9If9cM9WD8-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="229" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="229" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="KDHDvU10Hn9If9cM9WD8-17" target="KDHDvU10Hn9If9cM9WD8-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="KDHDvU10Hn9If9cM9WD8-17" target="KDHDvU10Hn9If9cM9WD8-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-17" value="：食材登録&lt;div&gt;管理&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="354" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="KDHDvU10Hn9If9cM9WD8-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="379" as="sourcePoint" />
+            <mxPoint x="690" y="379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="KDHDvU10Hn9If9cM9WD8-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="379" as="sourcePoint" />
+            <mxPoint x="690" y="379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-20" value="４：登録内容を確認する（食材名, 日付, 在庫数）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="349" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="379" as="sourcePoint" />
+            <mxPoint x="750" y="379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-23" value="８：登録内容を表示する&lt;div&gt;（食材名，日付，在庫数）&lt;/div&gt;&lt;div&gt;[文字数,賞味期限,在庫数に問題ない場合]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="578.75" y="430" width="172.5" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750.6723201976102" y="429" as="sourcePoint" />
+            <mxPoint x="580" y="429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="KDHDvU10Hn9If9cM9WD8-28" target="KDHDvU10Hn9If9cM9WD8-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-28" value="：食材" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="359" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="939.9986956521739" y="377.82" as="sourcePoint" />
+            <mxPoint x="1040" y="377.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-30" value="７：日付を確認する（日付）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="459.5" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-31" value="５：制限文字数を確認する（食材名）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="869" y="346" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-32" value="６：在庫数を確認する（在庫数）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="299" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.692;entryY=-0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="334" as="sourcePoint" />
+            <mxPoint x="1039.92" y="333.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="460" as="sourcePoint" />
+            <mxPoint x="310" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-35" value="９：編集を確定する（食材名，日付，在庫数）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="459.5" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="581.25" y="510" as="sourcePoint" />
+            <mxPoint x="751.25" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-37" value="１０：編集内容を&lt;span style=&quot;background-color: initial;&quot;&gt;確定する&lt;/span&gt;&lt;div&gt;&lt;div&gt;（食材名，日付，在庫数）&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="592.5" y="520" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-38" value="：賞味期限管理リスト" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="470" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-39" value="１２：編集を設定する（食材）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="917.5" y="540" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.692;entryY=-0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="493.18" as="sourcePoint" />
+            <mxPoint x="1039.92" y="493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.692;entryY=-0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940.04" y="530.1800000000001" as="sourcePoint" />
+            <mxPoint x="1039.96" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="289" as="sourcePoint" />
+            <mxPoint x="1040" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDHDvU10Hn9If9cM9WD8-43" value="１１：編集内容を更新する（食材名，日付，在庫数）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="902.5" y="250" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KBElXMPUXMG6msY28Kee" name="登録した食材を消去する">
+    <mxGraphModel dx="1148" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MyEw214K1a-99I3cU31v-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="242" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-2" value="：メイン画面（賞味期限&lt;span style=&quot;background-color: initial;&quot;&gt;管理リスト）&lt;/span&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="162" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-3" value="：消去確認&lt;div&gt;画面&lt;/div&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="312" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-4" value="" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" edge="1" parent="1" source="MyEw214K1a-99I3cU31v-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="202" as="sourcePoint" />
+            <mxPoint x="280" y="202" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="272" />
+              <mxPoint x="120" y="202" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="182" as="sourcePoint" />
+            <mxPoint x="240" y="182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-6" value="１：食材の消去を&lt;div&gt;指示する（食材）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="142" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="MyEw214K1a-99I3cU31v-2" target="MyEw214K1a-99I3cU31v-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="302" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="252" as="sourcePoint" />
+            <mxPoint x="380" y="302" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-9" value="２：指示する（食材）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="257" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="272" as="sourcePoint" />
+            <mxPoint x="280" y="352" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MyEw214K1a-99I3cU31v-13" target="MyEw214K1a-99I3cU31v-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-13" value="：食材消去&lt;div&gt;管理&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="306" width="80" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-14" value="：食材" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="312" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MyEw214K1a-99I3cU31v-3" target="MyEw214K1a-99I3cU31v-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MyEw214K1a-99I3cU31v-13" target="MyEw214K1a-99I3cU31v-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="370" as="sourcePoint" />
+            <mxPoint x="550" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-18" value="３：消去内容を確定する（食材名，日付，数）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="384" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="370" as="sourcePoint" />
+            <mxPoint x="800" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-20" value="６：食材を消去する（食材）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="480" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.992;entryY=0.477;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="MyEw214K1a-99I3cU31v-13" target="MyEw214K1a-99I3cU31v-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="370" as="sourcePoint" />
+            <mxPoint x="250" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-23" value="４：消去内容を確認する（食材名，日付，数）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="384" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-24" value="：賞味期限&lt;div&gt;管理リスト&lt;/div&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="480" as="sourcePoint" />
+            <mxPoint x="800" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyEw214K1a-99I3cU31v-26" value="５：食材を消去する&lt;div&gt;（食材名，日付，数）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="384" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MG1m6MigdzWqQhUG3Sdx" name="登録した食材を買い物リストへ移動する">
+    <mxGraphModel dx="1208" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YchbiyMJSX1d6FK98u3k-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YchbiyMJSX1d6FK98u3k-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="360" />
+              <mxPoint x="110" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="330" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-3" value="：メイン画面（賞味期限管理リスト）" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="YchbiyMJSX1d6FK98u3k-5" target="YchbiyMJSX1d6FK98u3k-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-5" value="：移動確認&lt;div&gt;画面&lt;/div&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="360" as="sourcePoint" />
+            <mxPoint x="300" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="240" as="sourcePoint" />
+            <mxPoint x="260" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-8" value="１：リストの変更を指示&lt;span style=&quot;background-color: initial;&quot;&gt;（）&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+            <mxPoint x="400" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YchbiyMJSX1d6FK98u3k-3" target="YchbiyMJSX1d6FK98u3k-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-11" value="２：表示する&lt;span style=&quot;background-color: initial;&quot;&gt;（）&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="345" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="480" as="sourcePoint" />
+            <mxPoint x="260" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-13" value="３：移動する食材を選択する&lt;div&gt;（食材）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="128.75" y="490" width="182.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YchbiyMJSX1d6FK98u3k-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YchbiyMJSX1d6FK98u3k-16" target="YchbiyMJSX1d6FK98u3k-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-16" value="：リスト管理" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="415" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="462.5" y="480" as="sourcePoint" />
+            <mxPoint x="543" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="712.5" y="480" as="sourcePoint" />
+            <mxPoint x="792.5" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-20" value="：食材" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-21" value="：買い物リスト画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="580" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.011;entryY=0.523;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YchbiyMJSX1d6FK98u3k-16" target="YchbiyMJSX1d6FK98u3k-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="622" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-25" value="：賞味期限管理リスト&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%EF%BC%9A%E3%83%AA%E3%82%B9%E3%83%88%22%20style%3D%22ellipse%3Bshape%3DumlEntity%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22840%22%20y%3D%22420%22%20width%3D%2280%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="295" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="YchbiyMJSX1d6FK98u3k-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-27" value="：買い物リスト（食材一覧）" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-28" value="&lt;span style=&quot;background-color: initial;&quot;&gt;１０：食材を消去する&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;（食材）&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="682.5" y="250" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="310" as="sourcePoint" />
+            <mxPoint x="790" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-30" value="５：在庫数が0であるか確認する（在庫数）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="682.5" y="490" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="610" as="sourcePoint" />
+            <mxPoint x="790" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-32" value="１１：食材を追加&lt;span style=&quot;background-color: initial;&quot;&gt;する&lt;/span&gt;&lt;div&gt;&lt;div&gt;（食材）&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="682.5" y="620" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-33" value="４：リストの変更を&lt;div&gt;確認する（食材）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="490" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="460" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-35" value="&lt;div&gt;[在庫数が0の場合]&lt;/div&gt;６：移動内容を表示する（食材）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="416" y="384" width="178" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="530" as="sourcePoint" />
+            <mxPoint x="260" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-37" value="７：食材の移動を確定する（食材）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="530" width="201.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="464.75" y="530" as="sourcePoint" />
+            <mxPoint x="545.25" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-39" value="８：食材を移動する（食材）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="530" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-40" value="９：更新する（食材名，日付=NULL，数=NULL）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="400" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YchbiyMJSX1d6FK98u3k-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="443" as="sourcePoint" />
+            <mxPoint x="790" y="443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
